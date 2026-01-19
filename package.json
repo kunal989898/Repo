@@ -1,11 +1,18 @@
 {
-  "name": "mass-kick-bot",
+  "name": "golden-future-school-website",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Beautiful, modern static website for Golden Future School",
+  "main": "index.html",
   "scripts": {
-    "start": "node index.js"
+    "start": "python3 -m http.server 8000",
+    "serve": "npx serve ."
   },
-  "dependencies": {
-    "discord.js": "^14.15.0"
-  }
+  "keywords": [
+    "school",
+    "education",
+    "static-website",
+    "golden-future"
+  ],
+  "author": "Golden Future School",
+  "license": "MIT"
 }
